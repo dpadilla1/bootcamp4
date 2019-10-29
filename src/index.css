@@ -4,6 +4,14 @@ body {
 	font-family: sans-serif;
 }
 
+.header {
+	/*margin-left: 20px;
+	margin-top: 20px;*/
+	color: #b48608; font-family: 'Droid serif', serif; font-size: 45px; 
+	font-weight: 400; font-style: italic; line-height: 44px; 
+	text-align: center;
+}
+
 /* ##### general ##### */
 * {
 	box-sizing: border-box;
@@ -20,13 +28,20 @@ header {
 
 input[type='text'] {
 	margin: 1rem;
+	margin-left: 0;
 	background: #fff;
 	font-size: 1.3rem;
 	border: none;
 	box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
 	border-radius: 3px;
 	padding: 0 2rem;
-	width: calc(100% - 2rem);
+	width: calc(96% - 2rem);
+	height: 4rem;
+}
+
+.searchIcon {
+	margin-left: 1rem;
+	margin-top: 1rem;
 	height: 4rem;
 }
 
@@ -52,12 +67,13 @@ td:hover {
 	float: left;
 	width: 50%;
 	padding: 10px;
+	background-color: #fdf0de;
 }
 .column2 {
 	float: left;
 	width: 50%;
 	padding: 20px;
-	background-color: #ccdef9;
+	background-color: #c3ffd0;
 }
 
 /* ##### Rows ##### */
@@ -73,7 +89,7 @@ td:hover {
 }
 
 .tableWrapper {
-	max-height: 800px;
+	max-height: 650px;
 	overflow: auto;
 	scroll-behavior: smooth;
 }
